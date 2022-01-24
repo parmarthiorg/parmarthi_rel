@@ -914,7 +914,7 @@ var WEF = {"local":"en_US","version":"v2.11","fb_id":""};
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => alert('Success!', response))
+      .then(response => alert('Success, Your Feedback Submitted Successfully!!', response))
       .catch(error => alert('Error!', error.message))
   })
 </script>
